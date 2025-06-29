@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class GlobalExceptionHandler
 {
-
 	// @ExceptionHandler(FeignException.BadRequest.class)
 	// public ResponseEntity<String> handleBadRequest(FeignException.BadRequest ex) {
 	// return ResponseEntity.badRequest()
